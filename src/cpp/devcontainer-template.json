@@ -1,0 +1,22 @@
+{
+    "id": "cpp",
+    "version": "1.0.0",
+    "name": "QMS cpp",
+    "description": "A template for qms' devcontainer",
+    "documentationURL": "https://github.com/meastp/devcontainer-templates/tree/main/src/cpp",
+    "licenseURL": "https://github.com/meastp/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu version (23.04 or lunar, 23.10 or mantic):",
+            "proposals": [
+                "lunar",
+                "mantic"
+            ],
+            "default": "lunar"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
