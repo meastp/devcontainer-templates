@@ -10,10 +10,6 @@
 			"userUid": "automatic",
 			"userGid": "automatic",
 			"upgradePackages": "true"
-		},
-		"ghcr.io/devcontainers/features/git:1": {
-			"version": "latest",
-			"ppa": "false"
 		}
 	},
 	"capAdd": [
