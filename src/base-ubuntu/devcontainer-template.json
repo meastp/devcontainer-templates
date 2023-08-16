@@ -1,6 +1,6 @@
 {
     "id": "base-ubuntu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "An ubuntu base image",
     "description": "A base template for qms' devcontainer",
     "documentationURL": "https://github.com/meastp/devcontainer-templates/tree/main/src/base-ubuntu",
