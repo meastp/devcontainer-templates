@@ -1,6 +1,4 @@
-# [Choice] Ubuntu version: lunar, manic
-ARG VARIANT="lunar"
-FROM buildpack-deps:${VARIANT}-curl
+FROM buildpack-deps:${templateOption:imageVariant}-curl
 
 LABEL dev.containers.features="common"
 
