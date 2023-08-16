@@ -12,7 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            cpp: ./**/cpp/**
+            base-ubuntu: ./**/base-ubuntu/**
 
   test:
     needs: [detect-changes]
