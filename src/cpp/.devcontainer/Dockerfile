@@ -1,7 +1,7 @@
 # [Choice] Ubuntu version: lunar, mantic
 #ARG VARIANT=lunar
 #FROM mcr.microsoft.com/devcontainers/base:${VARIANT}
-FROM ghcr.io/meastp/templates/base-ubuntu:latest
+FROM ghcr.io/meastp/devcontainer-templates/base-ubuntu:latest
 USER root
 
 # Install needed packages. Use a separate RUN statement to add your own dependencies.
