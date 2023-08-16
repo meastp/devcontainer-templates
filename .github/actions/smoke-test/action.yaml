@@ -3,6 +3,9 @@ inputs:
   template:
     description: "Template to test"
     required: true
+  repo-token:
+    description: github token
+    required: true
 
 runs:
   using: composite
@@ -12,7 +15,7 @@ runs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ inputs.repo-token }}
 
     - name: Checkout main
       id: checkout_release
