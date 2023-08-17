@@ -18,7 +18,14 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      
+      - name: Build and publish dev container image
+        uses: devcontainers/ci@v0.3
+        with:
+          subFolder: src/base-ubuntu
+          imageName: ghcr.io/meastp/base-ubuntu
+          runCmd: echo "test"
+      
       - name: Create PR for Documentation
         id: push_image_info
         env:
